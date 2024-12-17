@@ -21,6 +21,7 @@ public class Vehiculo{
         this.fabricante = fabricante;
         Vehiculo.CantidadVehiculos++;
         Pais.ventas.add(fabricante.getPais());
+        Fabricante.ventas.add(fabricante);
     }
 
     public static int getCantidadVehiculos() {
